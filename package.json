@@ -1,0 +1,19 @@
+{
+  "name": "lap-gerencial-back",
+  "version": "1.0.0",
+  "description": "Api para o Lap gerencial App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thiago-santanna/lap-gerencial-back.git"
+  },
+  "author": "Thiago Santanna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thiago-santanna/lap-gerencial-back/issues"
+  },
+  "homepage": "https://github.com/thiago-santanna/lap-gerencial-back#readme"
+}
