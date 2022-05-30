@@ -1,7 +1,7 @@
-import { Router } from 'express'
-
-export const helloRouter = Router()
-
-helloRouter.get('/hello', (req, res) => {
-  res.send('Hello World Lap Gerencial Web App!')
-})
+import { helloWorldService } from '../services/hello/index.js'
+export default {
+  async helloworld(req, res) {
+    const resposta = await helloWorldService()
+    return res.json(resposta)
+  }
+}
